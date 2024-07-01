@@ -21,7 +21,7 @@ public class CrouchState : State
             if (!isCrouching)
             {
                 isCrouching = true;
-                speed = speed * 0.5f;
+                speed = speed * 0.6f;
                 Debug.Log("Crouching");
                 actor.transform.localScale = new Vector2(1, 0.75f);
             }
